@@ -6,7 +6,7 @@ interface Props {
   pageName?: string;
 }
 
-const PageLoader: FC<Props> = ({ pageName = '' }) => {
+const PageLoader: FC<Props> = ({ pageName = 'My Test' }) => {
   const loadingText = `Loading ${pageName}...`;
   return (
     <div className="page-loader-wrapper">
